@@ -1,2 +1,1 @@
-# cadastro_venda_rapido
-Cadastro de produtos e venda de pedidos rápido com uso de bootstrap/jquery
+Este projeto foi criado para ser demonstrado em uma entrevista de senioridade, no entanto achei sua funcionalidade útil para possíveis desenvolvedores, assim sendo estou disponibilizando o código fonte junto do SQL utilizado para quem se interessar pelo projeto e desejar desenvolve-lo.
