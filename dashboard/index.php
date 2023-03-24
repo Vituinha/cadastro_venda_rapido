@@ -30,7 +30,7 @@ session_start();
         <div class="navbar-nav">
           <a class="nav-item nav-link <?php echo $actv_prod; ?>" href="#" onclick="produtos();" >Produtos <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link <?php echo $actv_ped; ?>" href="#" onclick="pedidos();">Pedidos</a>
-          <a class="nav-item nav-link" href="#">Participante</a>
+          <a class="nav-item nav-link" href="../portifolio/index.html" target="_blank">Participante</a>
         </div>
       </div>
     </nav>
