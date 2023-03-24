@@ -1,0 +1,45 @@
+body{
+    background-image:url(../libs/images/wpp-1.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.bg__card__navbar{
+	background-color: #000000;
+}
+
+.bg__card__footer{
+	background-color: #000000 !important;
+}
+
+#add__new__list{
+    top: -38px;
+    right: 0px;
+}
+
+.title{
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.bg-info{
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.nav-link{
+    font-weight: bold;
+    color: darkslategray !important;
+}
+
+textarea {
+    resize: none;
+}
+
+.image_c{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
