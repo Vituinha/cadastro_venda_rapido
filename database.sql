@@ -8,6 +8,14 @@ CREATE TABLE `produtos` (
   `estoque` decimal(8,2) DEFAULT NULL COMMENT 'Estoque inicial/atual',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+-- senioridade.vendas definition
+CREATE TABLE `vendas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Id da venda',
+  `valor` decimal(8,4) DEFAULT NULL COMMENT 'Valor total da venda',
+  `cliente` varchar(100) DEFAULT NULL COMMENT 'Cliente relacionado a venda',
+  `data_cadastro` date DEFAULT NULL COMMENT 'Data de criação da venda',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 -- senioridade.venda_item definition
 CREATE TABLE `venda_item` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Id do pedidos - item',
